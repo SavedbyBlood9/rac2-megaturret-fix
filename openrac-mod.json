@@ -1,0 +1,13 @@
+{
+  "format": 2,
+  "id": "rac2-megaturret-fix",
+  "name": "Megaturret Fix (PAL)",
+  "version": "0.2.0",
+  "author": "SavedbyBlood9",
+  "description": "On the PAL disc, the Megaturret Glove's turrets bob on their stalks and never fire: PAL plays animations 1.2 times as fast for its 50 Hz, so a turret's unfold (and its fold, when too many are out) skips the frame it waits for and replays forever. The mod finishes a stuck unfold or fold the moment it starts over, the way the game would, and the turrets aim and fire their rockets as they do on NTSC-U.",
+  "license": "MIT",
+  "homepage": "https://github.com/SavedbyBlood9/rac2-megaturret-fix",
+  "api": "1.0",
+  "multiplayer": "gameplay",
+  "games": { "rac2": ["pal"] }
+}
